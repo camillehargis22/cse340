@@ -1,0 +1,68 @@
+/* Welcome Section */
+#container {
+    position: relative;
+    text-align: center;
+}
+
+#container img {
+    width: 100%;
+}
+
+#floating-info {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    text-align: left;
+    color: #00DDFF;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+}
+
+#floating-info h3 {
+    font-weight: bolder;
+    margin: 0;
+}
+
+#floating-info p {
+    margin: 0;
+}
+
+#floating-info button {
+    background-color: #00DDFF;
+    color: #000000;
+    text-align: center;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* Reviews Section */
+#reviews {
+    margin-right: 5px;
+    order: 2;
+}
+
+/* Upgrades Section */
+#upgrades {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 8px;
+}
+
+#upgrades .card {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#upgrades .card .img-background {
+    background-color: #00DDFF;
+    border: solid 1px #000000;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#upgrades img {
+    max-width: 33%;
+}

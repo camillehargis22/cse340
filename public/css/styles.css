@@ -4,3 +4,41 @@
 *:after {
   box-sizing: border-box;
 }
+
+* {
+  font-family: 'Epunda Slab', sans-serif;
+}
+
+@media only screen and (min-width: 620px) {
+  body {
+    background-image: url('/images/site/checkerboard.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  #wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    border: solid 5px #00DDFF;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 8px;
+  }
+
+  #floating-info {
+    top: 16px;
+    left: 20px;
+  }
+
+  #container img {
+    width: 50%;
+  }
+
+  #sections-large-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+}
